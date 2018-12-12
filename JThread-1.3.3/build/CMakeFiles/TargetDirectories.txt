@@ -1,0 +1,5 @@
+C:/VR/JThread-1.3.3/build/CMakeFiles/INSTALL.dir
+C:/VR/JThread-1.3.3/build/CMakeFiles/ALL_BUILD.dir
+C:/VR/JThread-1.3.3/build/CMakeFiles/ZERO_CHECK.dir
+C:/VR/JThread-1.3.3/build/src/CMakeFiles/jthread-static.dir
+C:/VR/JThread-1.3.3/build/src/CMakeFiles/INSTALL.dir

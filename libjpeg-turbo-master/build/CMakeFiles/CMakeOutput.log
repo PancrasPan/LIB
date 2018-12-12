@@ -1,0 +1,393 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) ��������汾 14.0.23107.0
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/9/29 9:42:45��
+�ڵ� 1 �ϵ���Ŀ��C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdC.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.77
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/VR/libjpeg-turbo-master/build/CMakeFiles/3.11.0/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7c44e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/9/29 9:42:46。
+节点 1 上的项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_7c44e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7c44e.dir\Debug\”。
+  正在创建目录“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7c44e.dir\Debug\cmTC_7c44e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7c44e.dir\Debug\cmTC_7c44e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7c44e.dir\Debug\\" /Fd"cmTC_7c44e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7c44e.dir\Debug\\" /Fd"cmTC_7c44e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_7c44e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_7c44e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_7c44e.lib" /MACHINE:X64  /machine:x64 cmTC_7c44e.dir\Debug\testCCompiler.obj
+  cmTC_7c44e.vcxproj -> C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_7c44e.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_7c44e.dir\Debug\cmTC_7c44e.tlog\unsuccessfulbuild”。
+  正在对“cmTC_7c44e.dir\Debug\cmTC_7c44e.tlog\cmTC_7c44e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_7c44e.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.83
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b8438.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/9/29 9:42:48。
+节点 1 上的项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_b8438.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b8438.dir\Debug\”。
+  正在创建目录“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b8438.dir\Debug\cmTC_b8438.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b8438.dir\Debug\cmTC_b8438.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b8438.dir\Debug\\" /Fd"cmTC_b8438.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b8438.dir\Debug\\" /Fd"cmTC_b8438.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_b8438.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_b8438.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_b8438.lib" /MACHINE:X64  /machine:x64 cmTC_b8438.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_b8438.vcxproj -> C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_b8438.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b8438.dir\Debug\cmTC_b8438.tlog\unsuccessfulbuild”。
+  正在对“cmTC_b8438.dir\Debug\cmTC_b8438.tlog\cmTC_b8438.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_b8438.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.83
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e4327.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/9/29 9:42:49。
+节点 1 上的项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_e4327.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e4327.dir\Debug\”。
+  正在创建目录“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e4327.dir\Debug\cmTC_e4327.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e4327.dir\Debug\cmTC_e4327.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4327.dir\Debug\\" /Fd"cmTC_e4327.dir\Debug\vc140.pdb" /Gd /TC /wd4996 /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4327.dir\Debug\\" /Fd"cmTC_e4327.dir\Debug\vc140.pdb" /Gd /TC /wd4996 /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_e4327.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_e4327.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_e4327.lib" /MACHINE:X64  /machine:x64 cmTC_e4327.dir\Debug\CheckIncludeFile.obj
+  cmTC_e4327.vcxproj -> C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_e4327.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_e4327.dir\Debug\cmTC_e4327.tlog\unsuccessfulbuild”。
+  正在对“cmTC_e4327.dir\Debug\cmTC_e4327.tlog\cmTC_e4327.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_e4327.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.83
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2a77a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/9/29 9:42:50。
+节点 1 上的项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_2a77a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_2a77a.dir\Debug\”。
+  正在创建目录“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_2a77a.dir\Debug\cmTC_2a77a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_2a77a.dir\Debug\cmTC_2a77a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2a77a.dir\Debug\\" /Fd"cmTC_2a77a.dir\Debug\vc140.pdb" /Gd /TC /wd4996 /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2a77a.dir\Debug\\" /Fd"cmTC_2a77a.dir\Debug\vc140.pdb" /Gd /TC /wd4996 /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_2a77a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_2a77a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_2a77a.lib" /MACHINE:X64  /machine:x64 cmTC_2a77a.dir\Debug\CheckIncludeFile.obj
+  cmTC_2a77a.vcxproj -> C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_2a77a.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_2a77a.dir\Debug\cmTC_2a77a.tlog\unsuccessfulbuild”。
+  正在对“cmTC_2a77a.dir\Debug\cmTC_2a77a.tlog\cmTC_2a77a.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_2a77a.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.83
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_de5ea.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/9/29 9:42:51。
+节点 1 上的项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_de5ea.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_de5ea.dir\Debug\”。
+  正在创建目录“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_de5ea.dir\Debug\cmTC_de5ea.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_de5ea.dir\Debug\cmTC_de5ea.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de5ea.dir\Debug\\" /Fd"cmTC_de5ea.dir\Debug\vc140.pdb" /Gd /TC /wd4996 /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de5ea.dir\Debug\\" /Fd"cmTC_de5ea.dir\Debug\vc140.pdb" /Gd /TC /wd4996 /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_de5ea.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_de5ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_de5ea.lib" /MACHINE:X64  /machine:x64 cmTC_de5ea.dir\Debug\CheckIncludeFile.obj
+  cmTC_de5ea.vcxproj -> C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_de5ea.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_de5ea.dir\Debug\cmTC_de5ea.tlog\unsuccessfulbuild”。
+  正在对“cmTC_de5ea.dir\Debug\cmTC_de5ea.tlog\cmTC_de5ea.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_de5ea.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.83
+
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8f6d3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/9/29 9:42:52。
+节点 1 上的项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_8f6d3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8f6d3.dir\Debug\”。
+  正在创建目录“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8f6d3.dir\Debug\cmTC_8f6d3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8f6d3.dir\Debug\cmTC_8f6d3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f6d3.dir\Debug\\" /Fd"cmTC_8f6d3.dir\Debug\vc140.pdb" /Gd /TC /wd4996 /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CheckTypeSize\SIZE_T.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f6d3.dir\Debug\\" /Fd"cmTC_8f6d3.dir\Debug\vc140.pdb" /Gd /TC /wd4996 /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CheckTypeSize\SIZE_T.c"
+  
+  SIZE_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_8f6d3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_8f6d3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_8f6d3.lib" /MACHINE:X64  /machine:x64 cmTC_8f6d3.dir\Debug\SIZE_T.obj
+  cmTC_8f6d3.vcxproj -> C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_8f6d3.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8f6d3.dir\Debug\cmTC_8f6d3.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8f6d3.dir\Debug\cmTC_8f6d3.tlog\cmTC_8f6d3.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_8f6d3.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.85
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_361ce.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/9/29 9:42:54。
+节点 1 上的项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_361ce.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_361ce.dir\Debug\”。
+  正在创建目录“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_361ce.dir\Debug\cmTC_361ce.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_361ce.dir\Debug\cmTC_361ce.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_361ce.dir\Debug\\" /Fd"cmTC_361ce.dir\Debug\vc140.pdb" /Gd /TC /wd4996 /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CheckTypeSize\UNSIGNED_LONG.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_361ce.dir\Debug\\" /Fd"cmTC_361ce.dir\Debug\vc140.pdb" /Gd /TC /wd4996 /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CheckTypeSize\UNSIGNED_LONG.c"
+  
+  UNSIGNED_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_361ce.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_361ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_361ce.lib" /MACHINE:X64  /machine:x64 cmTC_361ce.dir\Debug\UNSIGNED_LONG.obj
+  cmTC_361ce.vcxproj -> C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_361ce.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_361ce.dir\Debug\cmTC_361ce.tlog\unsuccessfulbuild”。
+  正在对“cmTC_361ce.dir\Debug\cmTC_361ce.tlog\cmTC_361ce.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_361ce.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.84
+
+
+Determining if files intrin.h exist passed with the following output:
+Change Dir: C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8350e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/9/29 9:42:55。
+节点 1 上的项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_8350e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8350e.dir\Debug\”。
+  正在创建目录“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8350e.dir\Debug\cmTC_8350e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8350e.dir\Debug\cmTC_8350e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8350e.dir\Debug\\" /Fd"cmTC_8350e.dir\Debug\vc140.pdb" /Gd /TC /wd4996 /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CheckIncludeFiles\HAVE_INTRIN_H.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8350e.dir\Debug\\" /Fd"cmTC_8350e.dir\Debug\vc140.pdb" /Gd /TC /wd4996 /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CheckIncludeFiles\HAVE_INTRIN_H.c"
+  
+  HAVE_INTRIN_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_8350e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_8350e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_8350e.lib" /MACHINE:X64  /machine:x64 cmTC_8350e.dir\Debug\HAVE_INTRIN_H.obj
+  cmTC_8350e.vcxproj -> C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_8350e.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8350e.dir\Debug\cmTC_8350e.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8350e.dir\Debug\cmTC_8350e.tlog\cmTC_8350e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_8350e.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.86
+
+
+Performing C SOURCE FILE Test INLINE_WORKS succeeded with the following output:
+Change Dir: C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c1ac5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/9/29 9:42:56。
+节点 1 上的项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_c1ac5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c1ac5.dir\Debug\”。
+  正在创建目录“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c1ac5.dir\Debug\cmTC_c1ac5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c1ac5.dir\Debug\cmTC_c1ac5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D INLINE_WORKS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1ac5.dir\Debug\\" /Fd"cmTC_c1ac5.dir\Debug\vc140.pdb" /Gd /TC /wd4996 /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\src.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D INLINE_WORKS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1ac5.dir\Debug\\" /Fd"cmTC_c1ac5.dir\Debug\vc140.pdb" /Gd /TC /wd4996 /errorReport:queue "C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_c1ac5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_c1ac5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/libjpeg-turbo-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_c1ac5.lib" /MACHINE:X64  /machine:x64 cmTC_c1ac5.dir\Debug\src.obj
+  cmTC_c1ac5.vcxproj -> C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_c1ac5.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_c1ac5.dir\Debug\cmTC_c1ac5.tlog\unsuccessfulbuild”。
+  正在对“cmTC_c1ac5.dir\Debug\cmTC_c1ac5.tlog\cmTC_c1ac5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\libjpeg-turbo-master\build\CMakeFiles\CMakeTmp\cmTC_c1ac5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.84
+
+Source file was:
+__forceinline static int foo(void) { return 0; } int main(void) { return foo(); }
+Checking whether the ASM_NASM compiler is NASM using "-v" matched "(NASM version)":
+NASM version 2.07 compiled on Jul 19 2009
+Checking whether the ASM_NASM compiler is NASM using "-v" matched "(NASM version)":
+NASM version 2.14rc15 compiled on Jul  6 2018

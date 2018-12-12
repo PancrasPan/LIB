@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/VR/libjpeg-turbo-master/CMakeLists.txt
+  CMake does not need to re-run because C:/VR/libjpeg-turbo-master/build/CMakeFiles/generate.stamp is up-to-date.
+  djpeg.c
+  cdjpeg.c
+  rdcolmap.c
+  rdswitch.c
+  wrgif.c
+  wrppm.c
+  wrbmp.c
+  wrtarga.c
+  正在生成代码...
+  djpeg-static.vcxproj -> C:\VR\libjpeg-turbo-master\build\Debug\djpeg-static.exe

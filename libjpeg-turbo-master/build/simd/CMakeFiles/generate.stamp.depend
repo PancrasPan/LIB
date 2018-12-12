@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+C:/VR/libjpeg-turbo-master/simd/CMakeLists.txt
+C:/Users/cic-vr/Documents/cmake/share/cmake-3.11/Modules/CMakeDetermineASM_NASMCompiler.cmake
+C:/Users/cic-vr/Documents/cmake/share/cmake-3.11/Modules/CMakeDetermineASMCompiler.cmake
+C:/Users/cic-vr/Documents/cmake/share/cmake-3.11/Modules/CMakeDetermineCompiler.cmake
+C:/Users/cic-vr/Documents/cmake/share/cmake-3.11/Modules/CMakeDetermineCompilerId.cmake
+C:/Users/cic-vr/Documents/cmake/share/cmake-3.11/Modules/CMakeCompilerIdDetection.cmake
+C:/Users/cic-vr/Documents/cmake/share/cmake-3.11/Modules/CMakeFindBinUtils.cmake
+C:/Users/cic-vr/Documents/cmake/share/cmake-3.11/Modules/CMakeASMCompiler.cmake.in
+C:/VR/libjpeg-turbo-master/build/CMakeFiles/3.11.0/CMakeASM_NASMCompiler.cmake
+C:/Users/cic-vr/Documents/cmake/share/cmake-3.11/Modules/CMakeASM_NASMInformation.cmake
+C:/Users/cic-vr/Documents/cmake/share/cmake-3.11/Modules/CMakeASMInformation.cmake
+C:/Users/cic-vr/Documents/cmake/share/cmake-3.11/Modules/CMakeTestASM_NASMCompiler.cmake
+C:/Users/cic-vr/Documents/cmake/share/cmake-3.11/Modules/CMakeTestASMCompiler.cmake
+C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.props.in
+C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.props.in
+C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.props.in
+C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.props.in
+C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.props.in

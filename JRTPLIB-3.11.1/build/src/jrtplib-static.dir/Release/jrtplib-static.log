@@ -1,0 +1,89 @@
+﻿  Building Custom Rule C:/VR/JRTPLIB-3.11.1/src/CMakeLists.txt
+  CMake does not need to re-run because C:/VR/JRTPLIB-3.11.1/build/src/CMakeFiles/generate.stamp is up-to-date.
+  rtcpapppacket.cpp
+  rtcpbyepacket.cpp
+  rtcpcompoundpacket.cpp
+  rtcpcompoundpacketbuilder.cpp
+C:\VR\JRTPLIB-3.11.1\src\rtcpcompoundpacketbuilder.cpp(366): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtcpcompoundpacketbuilder.cpp(382): warning C4267: “=”: 从“size_t”转换到“uint8_t”，可能丢失数据
+  rtcppacket.cpp
+  rtcppacketbuilder.cpp
+C:\VR\JRTPLIB-3.11.1\src\rtcppacketbuilder.cpp(180): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtcppacketbuilder.cpp(519): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtcppacketbuilder.cpp(536): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtcppacketbuilder.cpp(553): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtcppacketbuilder.cpp(570): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtcppacketbuilder.cpp(587): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtcppacketbuilder.cpp(604): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtcppacketbuilder.cpp(708): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtcppacketbuilder.cpp(720): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+  rtcprrpacket.cpp
+  rtcpscheduler.cpp
+  rtcpsdesinfo.cpp
+  rtcpsdespacket.cpp
+C:\VR\JRTPLIB-3.11.1\src\rtcpsdespacket.cpp(110): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtcpsdespacket.cpp(127): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  rtcpsrpacket.cpp
+  rtpcollisionlist.cpp
+  rtpdebug.cpp
+  rtperrors.cpp
+  rtpinternalsourcedata.cpp
+  rtpipv4address.cpp
+  rtpipv6address.cpp
+  rtpipv4destination.cpp
+  rtpipv6destination.cpp
+  rtplibraryversion.cpp
+  正在生成代码...
+  正在编译...
+  rtppacket.cpp
+C:\VR\JRTPLIB-3.11.1\src\rtppacket.cpp(170): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  rtppacketbuilder.cpp
+  rtppollthread.cpp
+  rtprandom.cpp
+  rtprandomrand48.cpp
+  rtprandomrands.cpp
+  rtprandomurandom.cpp
+C:\VR\JRTPLIB-3.11.1\src\rtprandomurandom.cpp(57): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  rtpsession.cpp
+C:\VR\JRTPLIB-3.11.1\src\rtpsession.cpp(748): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtpsession.cpp(771): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtpsession.cpp(850): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtpsession.cpp(885): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtpsession.cpp(1603): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+  rtpsessionparams.cpp
+  rtpsessionsources.cpp
+  rtpsourcedata.cpp
+C:\VR\JRTPLIB-3.11.1\src\rtpsourcedata.cpp(219): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+C:\VR\JRTPLIB-3.11.1\src\rtpsourcedata.cpp(233): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  rtpsources.cpp
+  rtptimeutilities.cpp
+  rtpudpv4transmitter.cpp
+C:\VR\JRTPLIB-3.11.1\src\rtpudpv4transmitter.cpp(721): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtpudpv4transmitter.cpp(652): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2216): note: 参见“gethostbyaddr”的声明
+C:\VR\JRTPLIB-3.11.1\src\rtpudpv4transmitter.cpp(927): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtpudpv4transmitter.cpp(956): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtpudpv4transmitter.cpp(1912): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238): note: 参见“gethostbyname”的声明
+  rtpudpv6transmitter.cpp
+C:\VR\JRTPLIB-3.11.1\src\rtpudpv6transmitter.cpp(502): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtpudpv6transmitter.cpp(425): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2216): note: 参见“gethostbyaddr”的声明
+C:\VR\JRTPLIB-3.11.1\src\rtpudpv6transmitter.cpp(708): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\VR\JRTPLIB-3.11.1\src\rtpudpv6transmitter.cpp(737): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  rtpbyteaddress.cpp
+  rtpexternaltransmitter.cpp
+C:\VR\JRTPLIB-3.11.1\src\rtpexternaltransmitter.cpp(228): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+  rtpsecuresession.cpp
+  rtpabortdescriptors.cpp
+C:\VR\JRTPLIB-3.11.1\src\rtpabortdescriptors.cpp(113): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850): note: 参见“inet_addr”的声明
+  rtptcpaddress.cpp
+  正在生成代码...
+  正在编译...
+  rtptcptransmitter.cpp
+C:\VR\JRTPLIB-3.11.1\src\rtptcptransmitter.cpp(803): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  jrtplib-static.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\src\Release\jrtplib.lib

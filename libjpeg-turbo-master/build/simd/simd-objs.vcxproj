@@ -1,0 +1,1733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E85F4F1F-0BE8-30B0-BCE5-DB4AF4247857}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>simd-objs</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="C:\VR\libjpeg-turbo-master\build\simd\simd-objs.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VR\libjpeg-turbo-master\build;C:\VR\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VR\libjpeg-turbo-master\build;C:\VR\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VR\libjpeg-turbo-master\build;C:\VR\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VR\libjpeg-turbo-master\build;C:\VR\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jsimdcpu.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jsimdcpu.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jsimdcpu.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jsimdcpu.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jsimdcpu.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jsimdcpu.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jsimdcpu.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jsimdcpu.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jsimdcpu.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jsimdcpu.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jsimdcpu.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jsimdcpu.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jsimdcpu.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jsimdcpu.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jsimdcpu.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jsimdcpu.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jsimdcpu.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jsimdcpu.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jsimdcpu.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jsimdcpu.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jsimdcpu.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jsimdcpu.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jsimdcpu.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jsimdcpu.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jsimdcpu.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jfdctflt-sse.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jfdctflt-sse.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctflt-sse.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctflt-sse.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctflt-sse.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctflt-sse.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctflt-sse.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jfdctflt-sse.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctflt-sse.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctflt-sse.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctflt-sse.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctflt-sse.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctflt-sse.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jfdctflt-sse.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctflt-sse.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctflt-sse.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctflt-sse.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctflt-sse.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctflt-sse.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jfdctflt-sse.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctflt-sse.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctflt-sse.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctflt-sse.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctflt-sse.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctflt-sse.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jccolor-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jccolor-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jccolor-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jccolor-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jccolor-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolor-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jccolor-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jccolor-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jccolor-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jccolor-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolor-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jccolor-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jccolor-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jccolor-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jccolor-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolor-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jccolor-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jccolor-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jccolor-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jccolor-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolor-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jcgray-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jcgray-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcgray-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcgray-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcgray-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgray-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgryext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jcgray-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcgray-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcgray-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcgray-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgray-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgryext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jcgray-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcgray-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcgray-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcgray-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgray-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgryext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jcgray-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcgray-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcgray-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcgray-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgray-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgryext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jchuff-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jchuff-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jchuff-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jchuff-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jchuff-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jchuff-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jchuff-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jchuff-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jchuff-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jchuff-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jchuff-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jchuff-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jchuff-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jchuff-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jchuff-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jchuff-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jchuff-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jchuff-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jchuff-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jchuff-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jchuff-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jchuff-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jchuff-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jchuff-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jchuff-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jcphuff-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jcphuff-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcphuff-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcphuff-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcphuff-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcphuff-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcphuff-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jcphuff-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcphuff-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcphuff-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcphuff-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcphuff-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcphuff-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jcphuff-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcphuff-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcphuff-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcphuff-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcphuff-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcphuff-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jcphuff-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcphuff-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcphuff-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcphuff-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcphuff-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcphuff-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jcsample-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jcsample-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcsample-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcsample-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcsample-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcsample-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jcsample-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcsample-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcsample-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcsample-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcsample-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jcsample-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcsample-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcsample-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcsample-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcsample-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jcsample-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcsample-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcsample-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcsample-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcsample-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jdcolor-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jdcolor-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdcolor-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdcolor-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdcolor-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolor-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jdcolor-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdcolor-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdcolor-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdcolor-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolor-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jdcolor-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdcolor-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdcolor-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdcolor-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolor-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jdcolor-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdcolor-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdcolor-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdcolor-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolor-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jdmerge-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jdmerge-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdmerge-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdmerge-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdmerge-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmerge-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmrgext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jdmerge-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdmerge-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdmerge-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdmerge-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmerge-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmrgext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jdmerge-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdmerge-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdmerge-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdmerge-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmerge-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmrgext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jdmerge-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdmerge-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdmerge-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdmerge-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmerge-sse2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmrgext-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jdsample-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jdsample-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdsample-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdsample-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdsample-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdsample-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jdsample-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdsample-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdsample-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdsample-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdsample-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jdsample-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdsample-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdsample-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdsample-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdsample-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jdsample-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdsample-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdsample-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdsample-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdsample-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jfdctfst-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jfdctfst-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctfst-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctfst-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctfst-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctfst-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctfst-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jfdctfst-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctfst-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctfst-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctfst-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctfst-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctfst-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jfdctfst-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctfst-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctfst-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctfst-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctfst-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctfst-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jfdctfst-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctfst-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctfst-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctfst-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctfst-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctfst-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jfdctint-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jfdctint-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctint-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctint-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctint-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctint-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jfdctint-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctint-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctint-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctint-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctint-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jfdctint-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctint-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctint-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctint-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctint-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jfdctint-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctint-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctint-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctint-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctint-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jidctflt-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jidctflt-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctflt-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctflt-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctflt-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctflt-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctflt-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jidctflt-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctflt-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctflt-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctflt-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctflt-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctflt-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jidctflt-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctflt-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctflt-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctflt-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctflt-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctflt-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jidctflt-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctflt-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctflt-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctflt-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctflt-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctflt-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jidctfst-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jidctfst-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctfst-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctfst-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctfst-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctfst-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctfst-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jidctfst-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctfst-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctfst-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctfst-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctfst-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctfst-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jidctfst-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctfst-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctfst-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctfst-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctfst-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctfst-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jidctfst-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctfst-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctfst-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctfst-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctfst-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctfst-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jidctint-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jidctint-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctint-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctint-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctint-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctint-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jidctint-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctint-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctint-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctint-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctint-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jidctint-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctint-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctint-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctint-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctint-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jidctint-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctint-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctint-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctint-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctint-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jidctred-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jidctred-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctred-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctred-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctred-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctred-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctred-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jidctred-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctred-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctred-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctred-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctred-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctred-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jidctred-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctred-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctred-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctred-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctred-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctred-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jidctred-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctred-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctred-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctred-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctred-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctred-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jquantf-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jquantf-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jquantf-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jquantf-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jquantf-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jquantf-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquantf-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jquantf-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jquantf-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jquantf-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jquantf-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jquantf-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquantf-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jquantf-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jquantf-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jquantf-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jquantf-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jquantf-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquantf-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jquantf-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jquantf-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jquantf-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jquantf-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jquantf-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquantf-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jquanti-sse2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jquanti-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jquanti-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jquanti-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jquanti-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jquanti-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jquanti-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jquanti-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jquanti-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jquanti-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jquanti-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jquanti-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jquanti-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jquanti-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jquanti-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jquanti-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jquanti-sse2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jquanti-sse2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jquanti-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jquanti-sse2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jquanti-sse2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-sse2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jccolor-avx2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jccolor-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jccolor-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jccolor-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jccolor-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolor-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jccolor-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jccolor-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jccolor-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jccolor-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolor-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jccolor-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jccolor-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jccolor-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jccolor-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolor-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jccolor-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jccolor-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jccolor-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jccolor-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolor-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jccolext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jcgray-avx2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jcgray-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcgray-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcgray-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcgray-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgray-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgryext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jcgray-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcgray-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcgray-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcgray-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgray-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgryext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jcgray-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcgray-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcgray-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcgray-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgray-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgryext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jcgray-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcgray-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcgray-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcgray-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgray-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jcgryext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jcsample-avx2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jcsample-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcsample-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcsample-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcsample-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcsample-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jcsample-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcsample-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcsample-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcsample-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcsample-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jcsample-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcsample-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcsample-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcsample-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcsample-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jcsample-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jcsample-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jcsample-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jcsample-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jcsample-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jdcolor-avx2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jdcolor-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdcolor-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdcolor-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdcolor-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolor-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jdcolor-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdcolor-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdcolor-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdcolor-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolor-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jdcolor-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdcolor-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdcolor-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdcolor-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolor-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jdcolor-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdcolor-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdcolor-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdcolor-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolor-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdcolext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jdmerge-avx2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jdmerge-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdmerge-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdmerge-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdmerge-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmerge-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmrgext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jdmerge-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdmerge-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdmerge-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdmerge-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmerge-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmrgext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jdmerge-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdmerge-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdmerge-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdmerge-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmerge-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmrgext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jdmerge-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdmerge-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdmerge-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdmerge-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmerge-avx2.asm;C:\VR\libjpeg-turbo-master\simd\x86_64\jdmrgext-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jdsample-avx2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jdsample-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdsample-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdsample-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdsample-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdsample-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jdsample-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdsample-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdsample-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdsample-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdsample-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jdsample-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdsample-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdsample-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdsample-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdsample-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jdsample-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jdsample-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jdsample-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jdsample-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jdsample-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jfdctint-avx2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jfdctint-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctint-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctint-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctint-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctint-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jfdctint-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctint-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctint-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctint-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctint-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jfdctint-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctint-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctint-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctint-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctint-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jfdctint-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jfdctint-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jfdctint-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jfdctint-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jfdctint-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jidctint-avx2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jidctint-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctint-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctint-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctint-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctint-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jidctint-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctint-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctint-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctint-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctint-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jidctint-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctint-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctint-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctint-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctint-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jidctint-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jidctint-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jidctint-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jidctint-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jidctint-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\827199ef66b1116650820dc9956b02e6\jquanti-avx2.asm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jquanti-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jquanti-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jquanti-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jquanti-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jquanti-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jquanti-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jquanti-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jquanti-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jquanti-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jquanti-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jquanti-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jquanti-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jquanti-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jquanti-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jquanti-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jquanti-avx2.asm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"C:/VR/libjpeg-turbo-master/simd/nasm/" -I"C:/VR/libjpeg-turbo-master/simd/x86_64/" C:/VR/libjpeg-turbo-master/simd/x86_64/jquanti-avx2.asm -oC:/VR/libjpeg-turbo-master/build/simd/$(Configuration)/jquanti-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/827199ef66b1116650820dc9956b02e6/jquanti-avx2.asm.obj.rule;C:\VR\libjpeg-turbo-master\simd\x86_64\jquanti-avx2.asm;C:\VR\libjpeg-turbo-master\simd\nasm\jcolsamp.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jdct.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jpeg_nbits_table.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdcfg.inc;C:\VR\libjpeg-turbo-master\simd\nasm\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-avx2.asm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\e385a3285f692723dfa1b12db833e1d9\simd-objs.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/e385a3285f692723dfa1b12db833e1d9/simd-objs.rule;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jsimdcpu.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctflt-sse.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jchuff-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcphuff-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctfst-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctflt-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctfst-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctred-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquantf-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-avx2.asm.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\CMakeFiles\simd-objs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/e385a3285f692723dfa1b12db833e1d9/simd-objs.rule;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jsimdcpu.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctflt-sse.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jchuff-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcphuff-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctfst-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctflt-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctfst-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctred-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquantf-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-avx2.asm.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\CMakeFiles\simd-objs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/e385a3285f692723dfa1b12db833e1d9/simd-objs.rule;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jsimdcpu.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctflt-sse.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jchuff-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcphuff-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctfst-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctflt-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctfst-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctred-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquantf-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-avx2.asm.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\CMakeFiles\simd-objs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/e385a3285f692723dfa1b12db833e1d9/simd-objs.rule;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jsimdcpu.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctflt-sse.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jchuff-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcphuff-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctfst-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctflt-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctfst-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctred-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquantf-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-sse2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jccolor-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcgray-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jcsample-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdcolor-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdmerge-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jdsample-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jfdctint-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jidctint-avx2.asm.obj;C:\VR\libjpeg-turbo-master\build\simd\$(Configuration)\jquanti-avx2.asm.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\CMakeFiles\simd-objs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\simd\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/VR/libjpeg-turbo-master/simd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\cic-vr\Documents\cmake\bin\cmake.exe -HC:/VR/libjpeg-turbo-master -BC:/VR/libjpeg-turbo-master/build --check-stamp-file C:/VR/libjpeg-turbo-master/build/simd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/simd/CMakeLists.txt;C:\VR\libjpeg-turbo-master\simd\CMakeLists.txt;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeASMCompiler.cmake.in;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeASM_NASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeASM_NASMInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeASMInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeTestASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.props.in;C:\VR\libjpeg-turbo-master\simd\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\simd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/VR/libjpeg-turbo-master/simd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\cic-vr\Documents\cmake\bin\cmake.exe -HC:/VR/libjpeg-turbo-master -BC:/VR/libjpeg-turbo-master/build --check-stamp-file C:/VR/libjpeg-turbo-master/build/simd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/simd/CMakeLists.txt;C:\VR\libjpeg-turbo-master\simd\CMakeLists.txt;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeASMCompiler.cmake.in;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeASM_NASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeASM_NASMInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeASMInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeTestASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.props.in;C:\VR\libjpeg-turbo-master\simd\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\simd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/VR/libjpeg-turbo-master/simd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\cic-vr\Documents\cmake\bin\cmake.exe -HC:/VR/libjpeg-turbo-master -BC:/VR/libjpeg-turbo-master/build --check-stamp-file C:/VR/libjpeg-turbo-master/build/simd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/simd/CMakeLists.txt;C:\VR\libjpeg-turbo-master\simd\CMakeLists.txt;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeASMCompiler.cmake.in;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeASM_NASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeASM_NASMInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeASMInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeTestASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.props.in;C:\VR\libjpeg-turbo-master\simd\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\simd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/VR/libjpeg-turbo-master/simd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\cic-vr\Documents\cmake\bin\cmake.exe -HC:/VR/libjpeg-turbo-master -BC:/VR/libjpeg-turbo-master/build --check-stamp-file C:/VR/libjpeg-turbo-master/build/simd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/simd/CMakeLists.txt;C:\VR\libjpeg-turbo-master\simd\CMakeLists.txt;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeASMCompiler.cmake.in;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeASM_NASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeASM_NASMInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeASMInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeTestASMCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.props.in;C:\VR\libjpeg-turbo-master\simd\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\simd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\VR\libjpeg-turbo-master\build\simd\CMakeFiles\simd-objs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\VR\libjpeg-turbo-master\build\ZERO_CHECK.vcxproj">
+      <Project>{3609FE9E-2E82-3880-99F2-D1CC653E66AA}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

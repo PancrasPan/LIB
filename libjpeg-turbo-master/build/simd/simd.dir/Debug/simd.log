@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/VR/libjpeg-turbo-master/simd/CMakeLists.txt
+  CMake does not need to re-run because C:/VR/libjpeg-turbo-master/build/simd/CMakeFiles/generate.stamp is up-to-date.
+  jsimd.c
+  simd.vcxproj -> C:\VR\libjpeg-turbo-master\build\simd\simd.dir\Debug\simd.lib

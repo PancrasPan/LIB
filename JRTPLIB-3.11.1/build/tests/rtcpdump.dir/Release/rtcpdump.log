@@ -1,0 +1,40 @@
+﻿  Building Custom Rule C:/VR/JRTPLIB-3.11.1/tests/CMakeLists.txt
+  CMake does not need to re-run because C:/VR/JRTPLIB-3.11.1/build/tests/CMakeFiles/generate.stamp is up-to-date.
+  rtcpdump.cpp
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(36): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(74): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int64_t'
+  C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(74): note: consider using '%llu' in the format string
+  C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(74): note: consider using '%Iu' in the format string
+  C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(74): note: consider using '%I64u' in the format string
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(83): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int64_t'
+  C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(83): note: consider using '%llu' in the format string
+  C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(83): note: consider using '%Iu' in the format string
+  C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(83): note: consider using '%I64u' in the format string
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(139): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(142): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(145): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(148): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(151): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(154): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(157): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(160): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(163): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(167): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(102): warning C4477: 'fprintf' : format string '%10u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int64_t'
+  C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(102): note: consider using '%llu' in the format string
+  C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(102): note: consider using '%Iu' in the format string
+  C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(102): note: consider using '%I64u' in the format string
+C:\VR\JRTPLIB-3.11.1\tests\rtcpdump.cpp(223): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850): note: 参见“inet_addr”的声明
+  rtcpdump.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\tests\Release\rtcpdump.exe

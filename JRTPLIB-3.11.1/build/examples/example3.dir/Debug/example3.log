@@ -1,0 +1,10 @@
+﻿  Building Custom Rule C:/VR/JRTPLIB-3.11.1/examples/CMakeLists.txt
+  CMake does not need to re-run because C:/VR/JRTPLIB-3.11.1/build/examples/CMakeFiles/generate.stamp is up-to-date.
+  example3.cpp
+C:\VR\JRTPLIB-3.11.1\examples\example3.cpp(69): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868): note: 参见“inet_ntoa”的声明
+C:\VR\JRTPLIB-3.11.1\examples\example3.cpp(100): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868): note: 参见“inet_ntoa”的声明
+C:\VR\JRTPLIB-3.11.1\examples\example3.cpp(133): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868): note: 参见“inet_ntoa”的声明
+  example3.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\examples\Debug\example3.exe

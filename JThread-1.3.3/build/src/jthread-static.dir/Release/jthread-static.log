@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/VR/JThread-1.3.3/src/CMakeLists.txt
+  CMake does not need to re-run because C:/VR/JThread-1.3.3/build/src/CMakeFiles/generate.stamp is up-to-date.
+  jmutex.cpp
+  jthread.cpp
+  正在生成代码...
+  jthread-static.vcxproj -> C:\VR\JThread-1.3.3\build\src\Release\jthread.lib

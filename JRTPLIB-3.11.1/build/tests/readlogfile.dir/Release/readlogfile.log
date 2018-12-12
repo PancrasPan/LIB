@@ -1,0 +1,38 @@
+﻿  Building Custom Rule C:/VR/JRTPLIB-3.11.1/tests/CMakeLists.txt
+  CMake does not need to re-run because C:/VR/JRTPLIB-3.11.1/build/tests/CMakeFiles/generate.stamp is up-to-date.
+  readlogfile.cpp
+C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(45): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int64_t'
+  C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(45): note: consider using '%llu' in the format string
+  C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(45): note: consider using '%Iu' in the format string
+  C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(45): note: consider using '%I64u' in the format string
+C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(54): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int64_t'
+  C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(54): note: consider using '%llu' in the format string
+  C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(54): note: consider using '%Iu' in the format string
+  C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(54): note: consider using '%I64u' in the format string
+C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(110): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(113): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(116): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(119): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(122): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(125): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(128): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(131): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(134): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(138): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(73): warning C4477: 'fprintf' : format string '%10u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int64_t'
+  C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(73): note: consider using '%llu' in the format string
+  C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(73): note: consider using '%Iu' in the format string
+  C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(73): note: consider using '%I64u' in the format string
+C:\VR\JRTPLIB-3.11.1\tests\readlogfile.cpp(188): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  readlogfile.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\tests\Release\readlogfile.exe

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/VR/libjpeg-turbo-master/CMakeLists.txt
+  CMake does not need to re-run because C:/VR/libjpeg-turbo-master/build/CMakeFiles/generate.stamp is up-to-date.
+  tjexample.c
+  tjexample.vcxproj -> C:\VR\libjpeg-turbo-master\build\Debug\tjexample.exe

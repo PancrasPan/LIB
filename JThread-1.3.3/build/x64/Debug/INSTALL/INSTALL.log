@@ -1,0 +1,7 @@
+﻿  -- Install configuration: "Debug"
+  -- Up-to-date: C:/VR/rtp/include/jthread/jmutex.h
+  -- Up-to-date: C:/VR/rtp/include/jthread/jthread.h
+  -- Up-to-date: C:/VR/rtp/include/jthread/jmutexautolock.h
+  -- Installing: C:/VR/rtp/include/jthread/jthreadconfig.h
+  -- Installing: C:/VR/rtp/lib/jthread_d.lib
+  -- Installing: C:/VR/rtp/lib/cmake/JThread/JThreadConfig.cmake

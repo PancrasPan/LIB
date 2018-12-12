@@ -1,0 +1,636 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) ��������汾 14.0.23107.0
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/11/17 9:02:47��
+�ڵ� 1 �ϵ���Ŀ��C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\3.11.0\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdC.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\3.11.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\3.11.0\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.94
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/3.11.0/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) ��������汾 14.0.23107.0
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/11/17 9:02:49��
+�ڵ� 1 �ϵ���Ŀ��C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\3.11.0\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdCXX.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdCXX.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\3.11.0\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdCXX.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\3.11.0\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.90
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/3.11.0/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3b21c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/17 9:02:50。
+节点 1 上的项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_3b21c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3b21c.dir\Debug\”。
+  正在创建目录“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3b21c.dir\Debug\cmTC_3b21c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3b21c.dir\Debug\cmTC_3b21c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b21c.dir\Debug\\" /Fd"cmTC_3b21c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b21c.dir\Debug\\" /Fd"cmTC_3b21c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_3b21c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_3b21c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_3b21c.lib" /MACHINE:X64  /machine:x64 cmTC_3b21c.dir\Debug\testCCompiler.obj
+  cmTC_3b21c.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_3b21c.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3b21c.dir\Debug\cmTC_3b21c.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3b21c.dir\Debug\cmTC_3b21c.tlog\cmTC_3b21c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_3b21c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.95
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_31473.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/17 9:02:51。
+节点 1 上的项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_31473.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_31473.dir\Debug\”。
+  正在创建目录“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_31473.dir\Debug\cmTC_31473.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_31473.dir\Debug\cmTC_31473.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31473.dir\Debug\\" /Fd"cmTC_31473.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31473.dir\Debug\\" /Fd"cmTC_31473.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_31473.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_31473.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_31473.lib" /MACHINE:X64  /machine:x64 cmTC_31473.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_31473.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_31473.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_31473.dir\Debug\cmTC_31473.tlog\unsuccessfulbuild”。
+  正在对“cmTC_31473.dir\Debug\cmTC_31473.tlog\cmTC_31473.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_31473.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.96
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_62a43.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/17 9:02:53。
+节点 1 上的项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_62a43.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_62a43.dir\Debug\”。
+  正在创建目录“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_62a43.dir\Debug\cmTC_62a43.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_62a43.dir\Debug\cmTC_62a43.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_62a43.dir\Debug\\" /Fd"cmTC_62a43.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_62a43.dir\Debug\\" /Fd"cmTC_62a43.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_62a43.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_62a43.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_62a43.lib" /MACHINE:X64  /machine:x64 cmTC_62a43.dir\Debug\testCXXCompiler.obj
+  cmTC_62a43.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_62a43.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_62a43.dir\Debug\cmTC_62a43.tlog\unsuccessfulbuild”。
+  正在对“cmTC_62a43.dir\Debug\cmTC_62a43.tlog\cmTC_62a43.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_62a43.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.96
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_519e2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/17 9:02:54。
+节点 1 上的项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_519e2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_519e2.dir\Debug\”。
+  正在创建目录“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_519e2.dir\Debug\cmTC_519e2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_519e2.dir\Debug\cmTC_519e2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_519e2.dir\Debug\\" /Fd"cmTC_519e2.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_519e2.dir\Debug\\" /Fd"cmTC_519e2.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_519e2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_519e2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_519e2.lib" /MACHINE:X64  /machine:x64 cmTC_519e2.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_519e2.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_519e2.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_519e2.dir\Debug\cmTC_519e2.tlog\unsuccessfulbuild”。
+  正在对“cmTC_519e2.dir\Debug\cmTC_519e2.tlog\cmTC_519e2.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_519e2.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.96
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_483a8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/17 9:02:55。
+节点 1 上的项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_483a8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_483a8.dir\Debug\”。
+  正在创建目录“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_483a8.dir\Debug\cmTC_483a8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_483a8.dir\Debug\cmTC_483a8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_483a8.dir\Debug\\" /Fd"cmTC_483a8.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\feature_tests.cxx"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_483a8.dir\Debug\\" /Fd"cmTC_483a8.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_483a8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_483a8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_483a8.lib" /MACHINE:X64  /machine:x64 cmTC_483a8.dir\Debug\feature_tests.obj
+  cmTC_483a8.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_483a8.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_483a8.dir\Debug\cmTC_483a8.tlog\unsuccessfulbuild”。
+  正在对“cmTC_483a8.dir\Debug\cmTC_483a8.tlog\cmTC_483a8.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_483a8.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.96
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_05bab.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/17 9:03:01。
+节点 1 上的项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_05bab.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_05bab.dir\Debug\”。
+  正在创建目录“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_05bab.dir\Debug\cmTC_05bab.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_05bab.dir\Debug\cmTC_05bab.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05bab.dir\Debug\\" /Fd"cmTC_05bab.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05bab.dir\Debug\\" /Fd"cmTC_05bab.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_05bab.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_05bab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_05bab.lib" /MACHINE:X64  /machine:x64 cmTC_05bab.dir\Debug\CheckIncludeFile.obj
+  cmTC_05bab.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_05bab.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_05bab.dir\Debug\cmTC_05bab.tlog\unsuccessfulbuild”。
+  正在对“cmTC_05bab.dir\Debug\cmTC_05bab.tlog\cmTC_05bab.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_05bab.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.93
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_aadd3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/17 9:03:03。
+节点 1 上的项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_aadd3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_aadd3.dir\Debug\”。
+  正在创建目录“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_aadd3.dir\Debug\cmTC_aadd3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_aadd3.dir\Debug\cmTC_aadd3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aadd3.dir\Debug\\" /Fd"cmTC_aadd3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aadd3.dir\Debug\\" /Fd"cmTC_aadd3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_aadd3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_aadd3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_aadd3.lib" /MACHINE:X64  /machine:x64 cmTC_aadd3.dir\Debug\CheckIncludeFile.obj
+  cmTC_aadd3.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_aadd3.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_aadd3.dir\Debug\cmTC_aadd3.tlog\unsuccessfulbuild”。
+  正在对“cmTC_aadd3.dir\Debug\cmTC_aadd3.tlog\cmTC_aadd3.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_aadd3.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.94
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f4ce0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/17 9:03:04。
+节点 1 上的项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_f4ce0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f4ce0.dir\Debug\”。
+  正在创建目录“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f4ce0.dir\Debug\cmTC_f4ce0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f4ce0.dir\Debug\cmTC_f4ce0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4ce0.dir\Debug\\" /Fd"cmTC_f4ce0.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4ce0.dir\Debug\\" /Fd"cmTC_f4ce0.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_f4ce0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_f4ce0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_f4ce0.lib" /MACHINE:X64  /machine:x64 cmTC_f4ce0.dir\Debug\CheckIncludeFile.obj
+  cmTC_f4ce0.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_f4ce0.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f4ce0.dir\Debug\cmTC_f4ce0.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f4ce0.dir\Debug\cmTC_f4ce0.tlog\cmTC_f4ce0.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_f4ce0.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.96
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d7f02.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/17 9:03:05。
+节点 1 上的项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_d7f02.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d7f02.dir\Debug\”。
+  正在创建目录“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d7f02.dir\Debug\cmTC_d7f02.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d7f02.dir\Debug\cmTC_d7f02.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7f02.dir\Debug\\" /Fd"cmTC_d7f02.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7f02.dir\Debug\\" /Fd"cmTC_d7f02.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c"
+  
+  CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_d7f02.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_d7f02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_d7f02.lib" /MACHINE:X64  /machine:x64 cmTC_d7f02.dir\Debug\CMAKE_SIZEOF_UNSIGNED_SHORT.obj
+  cmTC_d7f02.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_d7f02.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d7f02.dir\Debug\cmTC_d7f02.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d7f02.dir\Debug\cmTC_d7f02.tlog\cmTC_d7f02.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_d7f02.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.95
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ef7a5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/17 9:03:07。
+节点 1 上的项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_ef7a5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ef7a5.dir\Debug\”。
+  正在创建目录“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ef7a5.dir\Debug\cmTC_ef7a5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ef7a5.dir\Debug\cmTC_ef7a5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef7a5.dir\Debug\\" /Fd"cmTC_ef7a5.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\TestEndianess.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef7a5.dir\Debug\\" /Fd"cmTC_ef7a5.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\TestEndianess.c"
+  
+  TestEndianess.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_ef7a5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_ef7a5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_ef7a5.lib" /MACHINE:X64  /machine:x64 cmTC_ef7a5.dir\Debug\TestEndianess.obj
+  cmTC_ef7a5.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_ef7a5.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_ef7a5.dir\Debug\cmTC_ef7a5.tlog\unsuccessfulbuild”。
+  正在对“cmTC_ef7a5.dir\Debug\cmTC_ef7a5.tlog\cmTC_ef7a5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_ef7a5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.94
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C++ SOURCE FILE Test JRTPLIB_SNPRINTF_S succeeded with the following output:
+Change Dir: C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c6ec9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/17 9:03:30。
+节点 1 上的项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_c6ec9.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c6ec9.dir\Debug\”。
+  正在创建目录“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c6ec9.dir\Debug\cmTC_c6ec9.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c6ec9.dir\Debug\cmTC_c6ec9.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D JRTPLIB_SNPRINTF_S /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c6ec9.dir\Debug\\" /Fd"cmTC_c6ec9.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\src.cxx"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D JRTPLIB_SNPRINTF_S /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c6ec9.dir\Debug\\" /Fd"cmTC_c6ec9.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_c6ec9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_c6ec9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_c6ec9.lib" /MACHINE:X64  /machine:x64 cmTC_c6ec9.dir\Debug\src.obj
+  cmTC_c6ec9.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_c6ec9.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_c6ec9.dir\Debug\cmTC_c6ec9.tlog\unsuccessfulbuild”。
+  正在对“cmTC_c6ec9.dir\Debug\cmTC_c6ec9.tlog\cmTC_c6ec9.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_c6ec9.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.30
+
+Source file was:
+#include <windows.h>
+#include <stdio.h>
+int main(void) { char s[1024]; _snprintf_s(s, 1024,"%d", 10);
+  return 0; }
+Performing C++ SOURCE FILE Test JRTPLIB_STDINT succeeded with the following output:
+Change Dir: C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5e12d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/17 9:03:31。
+节点 1 上的项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_5e12d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5e12d.dir\Debug\”。
+  正在创建目录“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5e12d.dir\Debug\cmTC_5e12d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5e12d.dir\Debug\cmTC_5e12d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D JRTPLIB_STDINT /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5e12d.dir\Debug\\" /Fd"cmTC_5e12d.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\src.cxx"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D JRTPLIB_STDINT /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5e12d.dir\Debug\\" /Fd"cmTC_5e12d.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_5e12d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_5e12d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VR/JRTPLIB-3.11.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_5e12d.lib" /MACHINE:X64  /machine:x64 cmTC_5e12d.dir\Debug\src.obj
+  cmTC_5e12d.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_5e12d.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_5e12d.dir\Debug\cmTC_5e12d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_5e12d.dir\Debug\cmTC_5e12d.tlog\cmTC_5e12d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\VR\JRTPLIB-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_5e12d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.95
+
+Source file was:
+#include <stdint.h>
+#include <sys/types.h>
+int main(void) { size_t a = 0 ; size_t b = a; uint32_t x = 0; uint32_t y = x; return 0; }

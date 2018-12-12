@@ -1,0 +1,7 @@
+﻿  -- Install configuration: "Release"
+  -- Up-to-date: C:/VR/rtp/include/jthread/jmutex.h
+  -- Up-to-date: C:/VR/rtp/include/jthread/jthread.h
+  -- Up-to-date: C:/VR/rtp/include/jthread/jmutexautolock.h
+  -- Up-to-date: C:/VR/rtp/include/jthread/jthreadconfig.h
+  -- Installing: C:/VR/rtp/lib/jthread.lib
+  -- Up-to-date: C:/VR/rtp/lib/cmake/JThread/JThreadConfig.cmake

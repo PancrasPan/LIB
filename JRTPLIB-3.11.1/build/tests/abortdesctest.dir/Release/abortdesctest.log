@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/VR/JRTPLIB-3.11.1/tests/CMakeLists.txt
+  CMake does not need to re-run because C:/VR/JRTPLIB-3.11.1/build/tests/CMakeFiles/generate.stamp is up-to-date.
+  abortdesctest.cpp
+  abortdesctest.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\tests\Release\abortdesctest.exe

@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B53C2370-1DA1-3263-BBC6-7BA9B2975AB6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>dist</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="C:\VR\libjpeg-turbo-master\build\dist.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VR\libjpeg-turbo-master\build;C:\VR\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VR\libjpeg-turbo-master\build;C:\VR\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VR\libjpeg-turbo-master\build;C:\VR\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VR\libjpeg-turbo-master\build;C:\VR\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\889bd4da194f036d56cfb1740532fe7a\dist.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\VR\libjpeg-turbo-master
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+git archive --prefix=libjpeg-turbo-2.0.1/ HEAD | gzip &gt; C:/VR/libjpeg-turbo-master/build/libjpeg-turbo-2.0.1.tar.gz
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/889bd4da194f036d56cfb1740532fe7a/dist.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\CMakeFiles\dist</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\VR\libjpeg-turbo-master
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+git archive --prefix=libjpeg-turbo-2.0.1/ HEAD | gzip &gt; C:/VR/libjpeg-turbo-master/build/libjpeg-turbo-2.0.1.tar.gz
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/889bd4da194f036d56cfb1740532fe7a/dist.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\CMakeFiles\dist</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\VR\libjpeg-turbo-master
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+git archive --prefix=libjpeg-turbo-2.0.1/ HEAD | gzip &gt; C:/VR/libjpeg-turbo-master/build/libjpeg-turbo-2.0.1.tar.gz
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/889bd4da194f036d56cfb1740532fe7a/dist.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\CMakeFiles\dist</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\VR\libjpeg-turbo-master
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+git archive --prefix=libjpeg-turbo-2.0.1/ HEAD | gzip &gt; C:/VR/libjpeg-turbo-master/build/libjpeg-turbo-2.0.1.tar.gz
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/build/CMakeFiles/889bd4da194f036d56cfb1740532fe7a/dist.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\CMakeFiles\dist</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/VR/libjpeg-turbo-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\cic-vr\Documents\cmake\bin\cmake.exe -HC:/VR/libjpeg-turbo-master -BC:/VR/libjpeg-turbo-master/build --check-stamp-file C:/VR/libjpeg-turbo-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/VR/libjpeg-turbo-master/CMakeLists.txt;C:\VR\libjpeg-turbo-master\CMakeLists.txt;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeSystem.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeCCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeRCCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\VR\libjpeg-turbo-master\cmakescripts\GNUInstallDirs.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckCSourceCompiles.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckIncludeFiles.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckTypeSize.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;C:\VR\libjpeg-turbo-master\win\jconfig.h.in;C:\VR\libjpeg-turbo-master\jconfigint.h.in;C:\VR\libjpeg-turbo-master\tjbenchtest.in;C:\VR\libjpeg-turbo-master\tjexampletest.in;C:\VR\libjpeg-turbo-master\cmakescripts\BuildPackages.cmake;C:\VR\libjpeg-turbo-master\release\installer.nsi.in;C:\VR\libjpeg-turbo-master\release\maketarball.in;C:\VR\libjpeg-turbo-master\release\libjpeg.pc.in;C:\VR\libjpeg-turbo-master\release\libturbojpeg.pc.in;C:\VR\libjpeg-turbo-master\cmakescripts\cmake_uninstall.cmake.in;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.props.in;C:\VR\libjpeg-turbo-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VR\libjpeg-turbo-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/VR/libjpeg-turbo-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\cic-vr\Documents\cmake\bin\cmake.exe -HC:/VR/libjpeg-turbo-master -BC:/VR/libjpeg-turbo-master/build --check-stamp-file C:/VR/libjpeg-turbo-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/VR/libjpeg-turbo-master/CMakeLists.txt;C:\VR\libjpeg-turbo-master\CMakeLists.txt;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeSystem.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeCCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeRCCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\VR\libjpeg-turbo-master\cmakescripts\GNUInstallDirs.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckCSourceCompiles.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckIncludeFiles.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckTypeSize.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;C:\VR\libjpeg-turbo-master\win\jconfig.h.in;C:\VR\libjpeg-turbo-master\jconfigint.h.in;C:\VR\libjpeg-turbo-master\tjbenchtest.in;C:\VR\libjpeg-turbo-master\tjexampletest.in;C:\VR\libjpeg-turbo-master\cmakescripts\BuildPackages.cmake;C:\VR\libjpeg-turbo-master\release\installer.nsi.in;C:\VR\libjpeg-turbo-master\release\maketarball.in;C:\VR\libjpeg-turbo-master\release\libjpeg.pc.in;C:\VR\libjpeg-turbo-master\release\libturbojpeg.pc.in;C:\VR\libjpeg-turbo-master\cmakescripts\cmake_uninstall.cmake.in;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.props.in;C:\VR\libjpeg-turbo-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VR\libjpeg-turbo-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/VR/libjpeg-turbo-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\cic-vr\Documents\cmake\bin\cmake.exe -HC:/VR/libjpeg-turbo-master -BC:/VR/libjpeg-turbo-master/build --check-stamp-file C:/VR/libjpeg-turbo-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/VR/libjpeg-turbo-master/CMakeLists.txt;C:\VR\libjpeg-turbo-master\CMakeLists.txt;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeSystem.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeCCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeRCCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\VR\libjpeg-turbo-master\cmakescripts\GNUInstallDirs.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckCSourceCompiles.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckIncludeFiles.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckTypeSize.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;C:\VR\libjpeg-turbo-master\win\jconfig.h.in;C:\VR\libjpeg-turbo-master\jconfigint.h.in;C:\VR\libjpeg-turbo-master\tjbenchtest.in;C:\VR\libjpeg-turbo-master\tjexampletest.in;C:\VR\libjpeg-turbo-master\cmakescripts\BuildPackages.cmake;C:\VR\libjpeg-turbo-master\release\installer.nsi.in;C:\VR\libjpeg-turbo-master\release\maketarball.in;C:\VR\libjpeg-turbo-master\release\libjpeg.pc.in;C:\VR\libjpeg-turbo-master\release\libturbojpeg.pc.in;C:\VR\libjpeg-turbo-master\cmakescripts\cmake_uninstall.cmake.in;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.props.in;C:\VR\libjpeg-turbo-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VR\libjpeg-turbo-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/VR/libjpeg-turbo-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\cic-vr\Documents\cmake\bin\cmake.exe -HC:/VR/libjpeg-turbo-master -BC:/VR/libjpeg-turbo-master/build --check-stamp-file C:/VR/libjpeg-turbo-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/VR/libjpeg-turbo-master/CMakeLists.txt;C:\VR\libjpeg-turbo-master\CMakeLists.txt;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeSystem.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeCCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\VR\libjpeg-turbo-master\build\CMakeFiles\3.11.0\CMakeRCCompiler.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\VR\libjpeg-turbo-master\cmakescripts\GNUInstallDirs.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckCSourceCompiles.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckIncludeFiles.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckTypeSize.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;C:\VR\libjpeg-turbo-master\win\jconfig.h.in;C:\VR\libjpeg-turbo-master\jconfigint.h.in;C:\VR\libjpeg-turbo-master\tjbenchtest.in;C:\VR\libjpeg-turbo-master\tjexampletest.in;C:\VR\libjpeg-turbo-master\cmakescripts\BuildPackages.cmake;C:\VR\libjpeg-turbo-master\release\installer.nsi.in;C:\VR\libjpeg-turbo-master\release\maketarball.in;C:\VR\libjpeg-turbo-master\release\libjpeg.pc.in;C:\VR\libjpeg-turbo-master\release\libturbojpeg.pc.in;C:\VR\libjpeg-turbo-master\cmakescripts\cmake_uninstall.cmake.in;C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.props.in;C:\VR\libjpeg-turbo-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VR\libjpeg-turbo-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\dist" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\VR\libjpeg-turbo-master\build\ZERO_CHECK.vcxproj">
+      <Project>{3609FE9E-2E82-3880-99F2-D1CC653E66AA}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Users\cic-vr\Documents\cmake\share\cmake-3.11\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

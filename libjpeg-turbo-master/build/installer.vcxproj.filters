@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\889bd4da194f036d56cfb1740532fe7a\installer.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\VR\libjpeg-turbo-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\VR\libjpeg-turbo-master\build\CMakeFiles\installer" />
+    <None Include="C:\VR\libjpeg-turbo-master\build\installer.nsi" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{171C7C5C-7820-3F9B-A128-B95267B97281}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

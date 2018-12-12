@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/VR/JRTPLIB-3.11.1/examples/CMakeLists.txt
+  CMake does not need to re-run because C:/VR/JRTPLIB-3.11.1/build/examples/CMakeFiles/generate.stamp is up-to-date.
+  example4.cpp
+  example4.vcxproj -> C:\VR\JRTPLIB-3.11.1\build\examples\Release\example4.exe

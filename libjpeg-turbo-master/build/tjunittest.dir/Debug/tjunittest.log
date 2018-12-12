@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/VR/libjpeg-turbo-master/CMakeLists.txt
+  CMake does not need to re-run because C:/VR/libjpeg-turbo-master/build/CMakeFiles/generate.stamp is up-to-date.
+  tjunittest.c
+  tjutil.c
+  md5.c
+  md5hl.c
+  正在生成代码...
+  tjunittest.vcxproj -> C:\VR\libjpeg-turbo-master\build\Debug\tjunittest.exe

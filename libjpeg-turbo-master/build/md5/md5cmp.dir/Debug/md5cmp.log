@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/VR/libjpeg-turbo-master/md5/CMakeLists.txt
+  CMake does not need to re-run because C:/VR/libjpeg-turbo-master/build/md5/CMakeFiles/generate.stamp is up-to-date.
+  md5cmp.c
+  md5.c
+  md5hl.c
+  正在生成代码...
+  md5cmp.vcxproj -> C:\VR\libjpeg-turbo-master\build\md5\Debug\md5cmp.exe

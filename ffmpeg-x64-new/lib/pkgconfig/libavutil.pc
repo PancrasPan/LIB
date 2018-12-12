@@ -1,0 +1,14 @@
+prefix=/usr/local/ffmpeg-x64-new
+exec_prefix=${prefix}
+libdir=/usr/local/ffmpeg-x64-new/lib
+includedir=/usr/local/ffmpeg-x64-new/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.14.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: dxgi.lib d3d11.lib bcrypt.lib
+Cflags: -I${includedir}
